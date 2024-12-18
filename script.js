@@ -66,9 +66,8 @@ let apexQuillInit = (options) => {
       theme: options.theme
     });
 
-    if (options.default) {
-      quill.root.innerHTML = options.default;
-      hiddenField.val(options.default);
+    if (hiddenField.val()) {
+      quill.root.innerHTML = hiddenField.val();
     }
 
     originalValue = quill.root.innerHTML;
