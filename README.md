@@ -13,4 +13,4 @@ Has two themes, the Snow Theme:
 ![image](https://github.com/user-attachments/assets/6cb743d0-f55d-485b-b978-404e3458f254)
 
 And the Bubble theme, with the options appears as a floating bubble if you select the text in the editor
-![image](https://github.com/user-attachments/assets/99a84b55-0cd3-4ede-962a-498b11f552c2)
+![image](https://github.com/user-attachments/assets/f3aa2e4d-006e-49a2-979f-7332794907af)
