@@ -1,0 +1,68 @@
+.ql-ui {
+  outline-color: #263E4D;
+  -webkit-padding-end: var(--a-field-select-arrow-padding, 2rem);
+  background-image: var(--a-field-select-background-image);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: var(--a-field-select-background-size, 2rem 1rem);
+  appearance: none;
+  background-color: var(--a-field-input-state-background-color, var(--a-field-input-background-color));
+  border-color: var(--a-field-input-state-border-color, var(--a-field-input-border-color));
+  border-radius: var(--a-field-input-border-radius, .125rem);
+  border-style: solid;
+  box-shadow: var(--a-field-input-state-shadow, var(--a-field-input-shadow));
+  color: var(--a-field-input-state-text-color, var(--a-field-input-text-color));
+  display: inline-block;
+  flex-grow: var(--a-field-input-flex-grow);
+  font-size: var(--a-field-input-font-size, .75rem);
+  font-weight: var(--a-field-input-font-weight, 400);
+  line-height: var(--a-field-input-line-height, 1rem);
+  max-width: 100%;
+  min-height: var(--ut-field-input-min-height, 0);
+  min-width: 0;
+  padding-block-end: calc(var(--a-field-input-padding-y, .25rem) - var(--a-field-input-border-width, 1px));
+  padding-block-start: var(--ut-field-fl-label-offset, calc(var(--a-field-input-padding-y, .25rem) - var(--a-field-input-border-width, 1px)));
+  transition: background-color .2s ease, border-color .2s ease, box-shadow .2s ease, color .2s ease;
+  vertical-align: top;
+  width: var(--a-field-input-width);
+}
+
+.ql-snow .ql-editor .ql-code-block-container {
+  min-height: 42px !important;
+}
+
+.ql-toolbar.ql-snow {
+  background-color: #fff !important;
+  border-bottom: none;
+  box-shadow: 0 2px 2px -2px rgba(34, 47, 62, .1), 0 8px 8px -4px rgba(34, 47, 62, .07);
+  padding: 4px 0 !important;
+  transition: box-shadow .5s;
+  border: none !important;
+}
+
+.ql-container.ql-snow {
+  border: none !important;
+  overflow-y: auto;
+}
+
+div.quilleditor-container {
+  border: 2px solid #eee;
+  border-radius: 10px;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  overflow: hidden;
+  position: relative;
+  visibility: inherit !important;
+  padding: 0px !important;
+}
+
+.ql-editor {
+  overflow-y: auto !important;
+}
+
+.t-Form-itemWrapper:has(.quilleditor-container) {
+  display: inline !important;
+}
